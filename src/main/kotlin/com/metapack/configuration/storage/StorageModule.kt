@@ -11,12 +11,6 @@ val storageModule = module {
         val db = Database.connect("jdbc:h2:mem:regular", "org.h2.Driver")
         SchemaUtils.create(DmCarrierDefinitions, MpmCarrierDefinitions, LogisticServiceProviders)
 
-
-        transaction {
-            LogisticServiceProvider.new {
-                id
-            }
-        }
         db
     }
 

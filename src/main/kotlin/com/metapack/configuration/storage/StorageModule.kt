@@ -2,7 +2,6 @@ package com.metapack.configuration.storage
 
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
-import org.jetbrains.exposed.sql.transactions.transaction
 import org.koin.dsl.module.module
 
 val storageModule = module {

@@ -63,3 +63,4 @@ class LogisticServiceProvider(id: EntityID<UUID>) : UUIDEntity(id) {
 }
 
 
+
